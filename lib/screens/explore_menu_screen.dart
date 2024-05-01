@@ -34,7 +34,7 @@ class ExploreMenuScreen extends StatelessWidget {
                       "Find Your\nFavorite Food",
                       style: TextStyle(
                         fontSize: 31,
-                        fontWeight: FontWeight.w400,
+                        fontWeight: FontWeight.w600,
                       ),
                     ),
                     Container(
@@ -273,6 +273,272 @@ class ExploreMenuScreen extends StatelessWidget {
                                 ],
                               ),
                             ),
+                          ],
+                        ),
+                      )
+                    ],
+                  ),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  Row(
+                    children: [
+                      Container(
+                        width: 330,
+                        height: 87,
+                        decoration: const BoxDecoration(
+                          color: Color.fromRGBO(255, 255, 255, 1),
+                          borderRadius: BorderRadius.all(Radius.circular(22)),
+                          boxShadow: [
+                            BoxShadow(
+                              color: Color.fromRGBO(90, 108, 234, 0.07),
+                              offset: Offset(
+                                0,
+                                0,
+                              ),
+                              blurRadius: 50,
+                              spreadRadius: 0,
+                            ),
+                            BoxShadow(
+                              color: Colors.white,
+                              offset: Offset(0.0, 0.0),
+                              blurRadius: 0.0,
+                              spreadRadius: 0.0,
+                            ),
+                          ],
+                        ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Row(
+                              children: [
+                                Padding(
+                                  padding: const EdgeInsets.all(10),
+                                  child: Column(
+                                    children: [
+                                      Container(
+                                        width: 64,
+                                        height: 64,
+                                        decoration: BoxDecoration(
+                                          borderRadius:
+                                              BorderRadius.circular(10),
+                                        ),
+                                        clipBehavior: Clip.hardEdge,
+                                        child: Image.asset(
+                                          "assets/images/menu.jpg",
+                                          fit: BoxFit.cover,
+                                        ),
+                                      )
+                                    ],
+                                  ),
+                                ),
+                                const Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Text(
+                                      "Herbal Pancake",
+                                      style: TextStyle(
+                                        fontSize: 15,
+                                        color: Color.fromRGBO(9, 5, 28, 1),
+                                        fontWeight: FontWeight.w500,
+                                      ),
+                                    ),
+                                    Text(
+                                      "Warung Herbal",
+                                      style: TextStyle(
+                                        color: Color.fromRGBO(59, 59, 59, 1),
+                                      ),
+                                    )
+                                  ],
+                                ),
+                              ],
+                            ),
+                            const Padding(
+                              padding: EdgeInsets.only(right: 20),
+                              child: Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Text(
+                                    "\$7",
+                                    style: TextStyle(
+                                      fontSize: 22,
+                                      fontWeight: FontWeight.w800,
+                                      color: Color.fromRGBO(254, 173, 29, 1),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      )
+                    ],
+                  ),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  Row(
+                    children: [
+                      Container(
+                        width: 330,
+                        height: 87,
+                        decoration: const BoxDecoration(
+                          color: Color.fromRGBO(255, 255, 255, 1),
+                          borderRadius: BorderRadius.all(Radius.circular(22)),
+                          boxShadow: [
+                            BoxShadow(
+                              color: Color.fromRGBO(90, 108, 234, 0.07),
+                              offset: Offset(
+                                0,
+                                0,
+                              ),
+                              blurRadius: 50,
+                              spreadRadius: 0,
+                            ),
+                            BoxShadow(
+                              color: Colors.white,
+                              offset: Offset(0.0, 0.0),
+                              blurRadius: 0.0,
+                              spreadRadius: 0.0,
+                            ),
+                          ],
+                        ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Row(
+                              children: [
+                                Padding(
+                                  padding: const EdgeInsets.all(10),
+                                  child: Column(
+                                    children: [
+                                      Container(
+                                        width: 64,
+                                        height: 64,
+                                        decoration: BoxDecoration(
+                                          borderRadius:
+                                              BorderRadius.circular(10),
+                                        ),
+                                        clipBehavior: Clip.hardEdge,
+                                        child: Image.asset(
+                                          "assets/images/menu.jpg",
+                                          fit: BoxFit.cover,
+                                        ),
+                                      )
+                                    ],
+                                  ),
+                                ),
+                                const Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Text(
+                                      "Herbal Pancake",
+                                      style: TextStyle(
+                                        fontSize: 15,
+                                        color: Color.fromRGBO(9, 5, 28, 1),
+                                        fontWeight: FontWeight.w500,
+                                      ),
+                                    ),
+                                    Text(
+                                      "Warung Herbal",
+                                      style: TextStyle(
+                                        color: Color.fromRGBO(59, 59, 59, 1),
+                                      ),
+                                    )
+                                  ],
+                                ),
+                              ],
+                            ),
+                            const Padding(
+                              padding: EdgeInsets.only(right: 20),
+                              child: Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Text(
+                                    "\$7",
+                                    style: TextStyle(
+                                      fontSize: 22,
+                                      fontWeight: FontWeight.w800,
+                                      color: Color.fromRGBO(254, 173, 29, 1),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      )
+                    ],
+                  ),
+                  const SizedBox(
+                    height: 10,
+                  ),
+                  Row(
+                    children: [
+                      Container(
+                        width: 330,
+                        height: 74,
+                        decoration: const BoxDecoration(
+                          color: Color.fromRGBO(255, 255, 255, 1),
+                          borderRadius: BorderRadius.all(Radius.circular(22)),
+                          boxShadow: [
+                            BoxShadow(
+                              color: Color.fromRGBO(90, 108, 234, 0.1),
+                              offset: Offset(
+                                0,
+                                0,
+                              ),
+                              blurRadius: 50,
+                              spreadRadius: 0,
+                            ),
+                            BoxShadow(
+                              color: Colors.white,
+                              offset: Offset(0.0, 0.0),
+                              blurRadius: 0.0,
+                              spreadRadius: 0.0,
+                            ),
+                          ],
+                        ),
+                        child: Row(
+                          children: [
+                            const SizedBox(
+                              width: 20,
+                            ),
+                            Container(
+                              width: 105,
+                              height: 44,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(12),
+                                color: Color.fromARGB(255, 235, 250, 242),
+                              ),
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: [
+                                  Image.asset("assets/images/home.png"),
+                                  const SizedBox(
+                                    width: 10,
+                                  ),
+                                  const Text(
+                                    "Home",
+                                    style: TextStyle(
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.w700,
+                                      color: Color.fromRGBO(9, 5, 28, 1),
+                                    ),
+                                  )
+                                ],
+                              ),
+                            ),
+                            Expanded(
+                                child:
+                                    Image.asset("assets/images/profile.png")),
+                            Expanded(
+                                child: Image.asset("assets/images/cart.png")),
+                            Expanded(
+                                child: Image.asset("assets/images/chat.png")),
                           ],
                         ),
                       )
