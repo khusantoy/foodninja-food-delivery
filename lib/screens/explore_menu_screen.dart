@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:foodninja_food_delivery/utils/string_extensions.dart';
 
@@ -325,7 +323,7 @@ class ExploreMenuScreen extends StatelessWidget {
                                         ),
                                         clipBehavior: Clip.hardEdge,
                                         child: Image.asset(
-                                          "assets/images/menu.jpg",
+                                          "assets/images/steak.jpg",
                                           fit: BoxFit.cover,
                                         ),
                                       )
@@ -422,7 +420,7 @@ class ExploreMenuScreen extends StatelessWidget {
                                         ),
                                         clipBehavior: Clip.hardEdge,
                                         child: Image.asset(
-                                          "assets/images/menu.jpg",
+                                          "assets/images/kebab.jpg",
                                           fit: BoxFit.cover,
                                         ),
                                       )
@@ -511,7 +509,7 @@ class ExploreMenuScreen extends StatelessWidget {
                               height: 44,
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(12),
-                                color: Color.fromARGB(255, 235, 250, 242),
+                                color: const Color.fromARGB(255, 235, 250, 242),
                               ),
                               child: Row(
                                 mainAxisAlignment: MainAxisAlignment.center,
