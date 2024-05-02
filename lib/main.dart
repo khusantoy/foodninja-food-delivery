@@ -1,6 +1,5 @@
-
 import 'package:flutter/material.dart';
-import 'package:foodninja_food_delivery/screens/explore_menu_screen.dart';
+import 'package:foodninja_food_delivery/screens/message_details_screen.dart';
 import 'package:foodninja_food_delivery/screens/message_screen.dart';
 
 void main() {
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MessageScreen(),
+      home: MessageDetailsScreen(),
     );
   }
 }
